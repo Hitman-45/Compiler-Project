@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main(void) {
+    int result = 0;
+    if (y > 5) { 
+        result = 1;
+    }
+}

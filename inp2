@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+    int a = 5;
+	int b = 10;
+	int result = 0;
+    if (a < b) {
+        if (b > 8) {
+            result = 1;
+        } else {
+            result = 2;
+        }
+    } else {
+        result = 3;
+    }
+}

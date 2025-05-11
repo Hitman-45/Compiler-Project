@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+    int sum = 0;
+	int i;
+	int j;
+    for (i = 1; i <= 3; i++) {
+        // Loop through j from 1 to 2
+        for (j = 1; j <= 2; j++) {
+            // Add the product of i and j to sum
+            sum = sum + i * j;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+    int i = 1; // Initialize i to 1
+    int product = 1; // Initialize product to 1
+
+    // Outer loop runs from 1 to 3
+    while (i <= 3) {
+        int j = 1; // Initialize j to 1
+
+        // Inner loop runs from 1 to 2
+        while (j <= 2) {
+            product = product * (i + j); // Multiply product by (i + j)
+            j++; // Increment j
+        }
+        i++; // Increment i
+    }
+}

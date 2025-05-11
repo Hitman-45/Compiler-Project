@@ -1,0 +1,48 @@
+#include <stdio.h>
+
+int main(void) {
+    int sum = 0;
+	int i;
+	int j;
+    for (i = 1; i <= 3; i++) {
+        for (j = 1; j <= 2; j++) {
+            sum = sum + i * j;
+        }
+    }
+}
+
+
+
+
+
+
+#include <stdio.h>
+int main(void)
+{
+	int a=5;
+    int b=5;
+    if(a==5) {
+        a=6;
+    } // comments
+    // comment here
+    else {
+        a=7;
+        if(a==6) {
+            a=8;
+        }
+        else { // comment
+            a=9;
+        }
+    }
+    while(b>0)
+    {
+        b=b-1; // comment
+        while(b<5)
+        {
+            /*this is 
+            a multi line comment*/
+            b=b+1;
+        }
+    }
+    a=a+b;  // comment
+}
